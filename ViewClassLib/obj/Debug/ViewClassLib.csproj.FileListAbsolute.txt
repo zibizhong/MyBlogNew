@@ -1,0 +1,9 @@
+F:\ASP\MyBlogNew\ViewClassLib\bin\Debug\ViewClassLib.dll
+F:\ASP\MyBlogNew\ViewClassLib\bin\Debug\ViewClassLib.pdb
+F:\ASP\MyBlogNew\ViewClassLib\bin\Debug\BlogModel.dll
+F:\ASP\MyBlogNew\ViewClassLib\bin\Debug\BlogModel.pdb
+F:\ASP\MyBlogNew\ViewClassLib\obj\Debug\ViewClassLib.csprojAssemblyReference.cache
+F:\ASP\MyBlogNew\ViewClassLib\obj\Debug\ViewClassLib.csproj.CoreCompileInputs.cache
+F:\ASP\MyBlogNew\ViewClassLib\obj\Debug\ViewClassLib.csproj.CopyComplete
+F:\ASP\MyBlogNew\ViewClassLib\obj\Debug\ViewClassLib.dll
+F:\ASP\MyBlogNew\ViewClassLib\obj\Debug\ViewClassLib.pdb

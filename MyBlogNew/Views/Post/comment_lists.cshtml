@@ -1,0 +1,9 @@
+﻿@using MyBlogNew.Models
+@model ViewCommentListModel
+评论列表：
+@foreach (ViewCommentModel item in Model.CommentLists)
+{
+    <span>@item.Content</span>
+    <br />
+}
+

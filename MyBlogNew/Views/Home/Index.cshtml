@@ -1,0 +1,25 @@
+﻿<header class="masthead" style="background-image: url('../../Content/startbootstrap-clean-blog-master/src/assets/img/home-bg.jpg')">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="site-heading"></div>
+            </div>
+        </div>
+    </div>
+</header>
+@using ViewClassLib
+@model ViewForIndex
+@Html.Partial("_Carousel", Model.viewPost)
+
+<div class="row">
+    <div class="col-md-6">
+        <h2>最新文章</h2>
+        @Html.Partial("_newistpost", Model.postList)
+        <p><a class="btn btn-default" href="/Post/Index">查看更多 &raquo;</a></p>
+    </div>
+    <div class="col-md-6">
+        <h2>最新评论</h2>
+        @Html.Partial("_newistComment", Model.commentList)
+        <p><a class="btn btn-default" href="/Post/Index">查看更多 &raquo;</a></p>
+    </div>
+</div>

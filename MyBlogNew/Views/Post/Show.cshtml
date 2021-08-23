@@ -1,0 +1,46 @@
+﻿<header class="masthead" style="background-image: url('../../Content/startbootstrap-clean-blog-master/src/assets/img/post-sample-image.jpg')">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="site-heading"></div>
+            </div>
+        </div>
+    </div>
+</header>
+@using MyBlogNew.Models
+@model  ShowViewModel
+@{
+    ViewBag.Title = "Show";
+}
+@if (Model.PostViewModel == null)
+{
+    <h1>该文章未发布</h1>
+}
+else
+{
+    <center>
+        <h2>@Model.PostViewModel.Title</h2>
+        <span>作者:@Model.PostViewModel.Author</span><text><br>创建时间:</text>@Model.PostViewModel.CreateTime
+        <hr />
+        @Html.Raw(Model.PostViewModel.Content)
+    </center>
+    @*使用分部视图*@
+    if (Request.IsAuthenticated)
+    {
+        <center>
+            @Html.Partial("_comment", Model.PostViewModel)
+        
+        
+        <h4>评论列表:</h4>
+        @Html.Partial("_comment_list", Model.viewCommentList)
+            </center>
+
+    }
+
+    else
+    {
+        <center>
+            <h2>@Html.ActionLink("您未登陆无权查看评论和发表评论", "Login", "Account")</h2>
+        </center>
+    }
+}

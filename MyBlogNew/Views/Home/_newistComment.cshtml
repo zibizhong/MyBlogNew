@@ -1,0 +1,11 @@
+﻿@model List<ViewCommentListForIndex>
+<ul class="list-unstyled">   
+    @foreach (ViewCommentListForIndex x in Model)
+    {
+    <li class="media my-4">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1">@Html.ActionLink(x.Comment, "Show", "Post", new { ID = x.PostID },new {@class="nav-link" })</h5>
+        </div>
+    </li>
+    }
+</ul>

@@ -1,0 +1,6 @@
+F:\ASP\MyBlogNew\BlogModel\bin\Debug\BlogModel.dll
+F:\ASP\MyBlogNew\BlogModel\bin\Debug\BlogModel.pdb
+F:\ASP\MyBlogNew\BlogModel\obj\Debug\BlogModel.csproj.CoreCompileInputs.cache
+F:\ASP\MyBlogNew\BlogModel\obj\Debug\BlogModel.dll
+F:\ASP\MyBlogNew\BlogModel\obj\Debug\BlogModel.pdb
+F:\ASP\MyBlogNew\BlogModel\obj\Debug\BlogModel.csprojAssemblyReference.cache

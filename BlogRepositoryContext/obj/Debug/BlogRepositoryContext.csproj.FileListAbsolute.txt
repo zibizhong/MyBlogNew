@@ -1,0 +1,14 @@
+F:\ASP\MyBlogNew\BlogRepositoryContext\bin\Debug\BlogRepositoryContext.dll.config
+F:\ASP\MyBlogNew\BlogRepositoryContext\bin\Debug\BlogRepositoryContext.dll
+F:\ASP\MyBlogNew\BlogRepositoryContext\bin\Debug\BlogRepositoryContext.pdb
+F:\ASP\MyBlogNew\BlogRepositoryContext\bin\Debug\BlogModel.dll
+F:\ASP\MyBlogNew\BlogRepositoryContext\bin\Debug\EntityFramework.dll
+F:\ASP\MyBlogNew\BlogRepositoryContext\bin\Debug\EntityFramework.SqlServer.dll
+F:\ASP\MyBlogNew\BlogRepositoryContext\bin\Debug\BlogModel.pdb
+F:\ASP\MyBlogNew\BlogRepositoryContext\bin\Debug\EntityFramework.xml
+F:\ASP\MyBlogNew\BlogRepositoryContext\bin\Debug\EntityFramework.SqlServer.xml
+F:\ASP\MyBlogNew\BlogRepositoryContext\obj\Debug\BlogRepositoryContext.csprojAssemblyReference.cache
+F:\ASP\MyBlogNew\BlogRepositoryContext\obj\Debug\BlogRepositoryContext.csproj.CoreCompileInputs.cache
+F:\ASP\MyBlogNew\BlogRepositoryContext\obj\Debug\BlogRepositoryContext.csproj.CopyComplete
+F:\ASP\MyBlogNew\BlogRepositoryContext\obj\Debug\BlogRepositoryContext.dll
+F:\ASP\MyBlogNew\BlogRepositoryContext\obj\Debug\BlogRepositoryContext.pdb

@@ -1,0 +1,29 @@
+﻿<header class="masthead" style="background-image: url('../../../../Content/startbootstrap-clean-blog-master/src/assets/img/home-bg.jpg')">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="site-heading"></div>
+            </div>
+      </div>
+    </div>
+ </header>
+@using MyBlogNew.Areas.Admin.Models;
+@model PostMaintainListViewModel
+@{ 
+    ViewBag.Title = "文章管理列表";
+}
+@Html.ActionLink("添加新文章", "AddPost")
+<ul>
+    @foreach (var post in Model.Posts)
+    {
+    <li>
+        @Html.ActionLink((string)post.Title, "Show", new { id = post.ID })
+        @Html.ActionLink("编辑", "Edit", new { id = post.ID })
+        @Html.ActionLink("删除", "DelPost", new { id = post.ID })
+    </li>
+    }
+
+</ul>
+
+<p>显示当前第 @Model.PageCount 页,共有 @Model.Pages 页(记录总数:@Model.Count)。</p>
+
